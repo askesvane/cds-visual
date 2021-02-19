@@ -97,7 +97,7 @@ def main():
     print(f"The image {min_filename} has the lowest distance measured in chi^2, {min_distance}, to the target image which is {os.path.basename(target_path)}.")
 
     # Save the dataframe as a csv file.
-    DATA.to_csv('image_search_results1.csv')
+    DATA.to_csv('image_search_results.csv')
 
 
 if __name__=="__main__":
